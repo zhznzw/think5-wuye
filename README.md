@@ -1,13 +1,8 @@
 
-## **安装使用**
-运行环境：Apache + MySQL + PHP
-注意：
-PHP版本需在5.6及以上
-Apache版本需在2.4及以上
-
-SQL文件说明
-db_estate.sql 基础数据（必须）
-init_data.sql 演示数据
-
-用户名：admin
-密　码：123456
+安装说明：
+1、上传到网站根目录;
+2、导入数据库文件sasa.sql
+3、修改数据库链接文件 /inc/config/config.php
+（记得不要用记事本修改，否则可能会出现验证码显示不了问题，建议用Notepad++）
+4、后台地址 http://您域名/public/admin.php
+   帐号 admin  密码 bbs.sasadown.cn
